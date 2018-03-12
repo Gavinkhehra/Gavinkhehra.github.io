@@ -3,8 +3,6 @@
 
   <head>
     <style>
-   
-
       * {
         box-sizing: border-box;
         font-family: sans-serif;
@@ -12,7 +10,7 @@
 
       .header,
       .footer {
-        background-color: blue;
+        background-color: maroon;
         color: white;
         padding: 15px;
       }
@@ -54,7 +52,7 @@
       .menu li {
         padding: 8px;
         margin-bottom: 8px;
-        background-color: orange;
+        background-color: maroon;
         color: #ffffff;
       }
 
@@ -64,19 +62,25 @@
       
       h1 {
          text-align: center;
-        
+         font-family: algerian;
+         background-color: white;
+          color: maroon;
       }
       
       li {
          text-align: center;
          background-color: black;
+         color: maroon;
       }
+      
+      li a {
+        color: white;
+      }
+
     </style>
   </head>
 
   <body>
-  
-  <body style="background-color: turquoise"/>
 
     <div class="header">
       <h1>Sport Report</h1>
@@ -86,7 +90,7 @@
         <ul>
           <li><a href="https://mrbrown85.github.io/main.html">LeBron James</a></li>
           <li><a href="https://mrbrown85.github.io/clubs.html">Real Madrid vs PSG</a></li>
-          <li><a href="https://mrbrown85.github.io/departments.html">Departments</a></li>
+          <li><a href="https://mrbrown85.github.io/departments.html">Kobe Bryant Wins an Oscar</a></li>
         </ul>
       </div>
 
@@ -95,23 +99,21 @@
         <br><img src="data:image/jpeg;base64,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">
         <h1>LeBron Kills The Nuggets</h1>
         <p>
-          On March, 7th, 2018. LeBron James aka"THE GOAT" had an amazing game against the Denver Nuggets dropping an amazing 39 points, 10 assists and 8 rebounds </p>
-        <p>Students who come to Enver Creek secondary can expect high academic expectations and a focus on community</p>
+          On March, 7th, 2018. LeBron James aka"THE GOAT" had an amazing game against the Denver Nuggets dropping an amazing 39 points, 10 assists and 8 rebounds</p>
+        <p>
+        This is a really remarkable game considering LeBron James is 33 years old and this is his 15th season in the NBA, this game is also special because he got to verse his former teammate Richard Jefferson. This game gave LeBron James his 39th double double of the season.
+        </p>
       </div>
       
        <div class="column content more">
-        <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
-        <h1>Second Content</h1>
+        <img src="https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2018/03/06/21/ronaldocelebrates.png" width="300" length="175">
+        <h1>Real Madrid vs PSG</h1>
         <p>
-          Enver Creek secondary is located in th heart of Surrey, British Columbia.</p>
-        <p>Students who come to Enver Creek secondary can expect high academic expectations and a focus on community</p>
+          On March 6th, 2018 Cristiano Ronaldo's Real Madrid went up against Thiago Silva's Paris-Saint Germain squad for the Champions league cup round 16</p>
+        <p>The game started intense wiht both teams not letting anyone score for the first half with both teams missing all of their shots. Then the second half began and not even 10 minutes after the half whistle the main man of both teams, Christiano Ronaldo scores in the 51' minute </p>
       </div>
     </div>
 
     <div class="footer">
-      <p>Footer Text</p>
+      <p>Gavin Khehra 2018</p>
     </div>
-
-  </body>
-
-</html>
