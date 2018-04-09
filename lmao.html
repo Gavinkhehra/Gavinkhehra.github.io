@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Academic accomplishments</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: "Times New Roman", Times, serif;
+      }
+      p {
+        text-indent: 50px;
+        text-align:center;
+      
+      }
+      
+      .column {
+      float: left;
+      padding: right;
+    }
+  
+    .column img {
+      float: right;
+    } 
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .menu {
+      width: 20%;
+    }
+    
+    .content {
+      width: 70%;
+      float: right;
+    }
+    
+    .more {
+      float: right;
+      
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      padding: 8px;
+      margin-bottom: 8px;
+      background-color: pink;
+    }
+    
+    .menu li: hover {
+      background-color: #0099cc;
+      }
+      
+      li a {
+        color: white;
+      }
+       
+       
+h2 {
+ color:black;
+ text-align :center;
+}
+      .header {
+        background-color: pink;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+      .column {
+        float: Left;
+        padding: Right;
+      }
+      .content {
+        width: 80%;
+        float: center;
+        padding: 16px;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Academic accomplishments</h1>
+    </div>
+   <br>
+     <div class="clearfix">
+       <div class="column menu">
+         <ul>
+          <li><a href="https://exotiic-pro1.github.io/electronic_portfolio.html">Back to portfolio</a></li>
+         </ul>
+       </div>      
+   <h2>
+   What I have accomplished in my career!
+   </h2>
+   <br>
+   <p>
+      I have had many accomplishments in my career I have a masters degree and have a phd in medical science. I have also been top of my class for 5 years now. Also all my grades are A or higher since college and university. Also I have been reached by many overseas colleges for and exchange program to teach the students and learn how the culture and how it is to learn in those countries, universities like Harvard, Yale and many more, also so I can share how it it is in America.
+    </p>
+<img src="https://vgy.me/SStGoh.jpg" alt="SStGoh.jpg" width=500px height=500px>
+  </body>
+
+</html>
